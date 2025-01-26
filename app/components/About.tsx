@@ -35,7 +35,7 @@ const About = () => {
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-16">
           <div className="bg-about-2 bg-cover bg-center rounded-xl" />
           <div>
-            <h1 className="lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 mt-8 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
+            <h1 className="lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
               Description
             </h1>
             <p className="lg:text-2xl text-lg">
