@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { useRouter } from "next/navigation";
 
@@ -16,7 +16,7 @@ const Home = () => {
           realize their potential, and contribute positively to society.
         </h1>
         <button
-          className="p-2 rounded-lg outline-none text-lg shadow-xl border border-black hover:bg-black hover:text-white transition duration-500 ease-in-out"
+          className="p-2 rounded-lg outline-none text-lg text-white bg-black hover:shadow-white hover:shadow-sm hover:bg-white hover:text-black transition duration-700 ease"
           onClick={() => router.push("#about")}
         >
           Find out how

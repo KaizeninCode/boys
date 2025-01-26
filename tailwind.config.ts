@@ -15,6 +15,10 @@ export default {
       backgroundImage: {
         'hero': "url('/hero.jpg')",
         'contact': "url('/contact.jpg')",
+        'about-1': "url('/about-1.jpg')",
+        'about-2': "url('/about-2.jpg')",
+        'mission-1': "url('/mission-1.jpg')",
+        'mission-2': "url('/mission-2.jpg')",
       }
     },
   },
