@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="flex-1 min-h-screen opacity-70 px-12 py-4" id="about">
-      <div className="grid grid-cols-2 gap-8 mt-6">
+    <section className="flex-1 min-h-screen opacity-70 lg:px-12 px-6 lg:py-4" id="about">
+      <div className="lg:grid lg:grid-cols-2 gap-8 mt-6">
         <div>
-          <h1 className="font-marcellus text-5xl mb-8 bg-white text-black w-fit p-4 rounded-lg">
+          <h1 className="font-marcellus lg:text-5xl text-xl lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
             Problem Statement
           </h1>
-          <p className="text-2xl">
+          <p className="lg:text-2xl text-lg max-lg:min-w-screen-md">
             Male children in many communities face various challenges including
             violence, abuse, lack of access to education and healthcare, and
             limited opportunities for personal development. These challenges
@@ -25,11 +25,11 @@ const About = () => {
             fulfilling lives and become valued members of society.
           </p>
         </div>
-        <div>
-          <h1 className="text-5xl font-marcellus mb-8 bg-white text-black w-fit p-4 rounded-lg">
+        <div className="max-lg:mt-8">
+          <h1 className="lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
             Description
           </h1>
-          <p className="text-2xl">
+          <p className="lg:text-2xl text-lg">
             Best Outcomes Youth Solace (BOYS) is a non-profit organization
             dedicated to addressing the challenges faced by male children,
             particularly in vulnerable communities. BOYS is committed to

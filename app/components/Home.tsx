@@ -6,12 +6,12 @@ const Home = () => {
   const router = useRouter();
   return (
     <section
-      className="flex-1 min-h-screen bg-hero bg-cover bg-center opacity-70 px-12 py-4"
+      className="flex-1 min-h-screen max-lg:max-w-screen-md bg-hero bg-cover bg-center opacity-70 lg:px-12 lg:py-4"
       id="Home"
     >
       {/* <Navbar /> */}
       <div className="flex flex-col items-center justify-center h-full text-black mx-auto">
-        <h1 className="text-5xl font-marcellus font-bold w-4/5 p-6 mt-[220px]">
+        <h1 className="lg:text-5xl text-xl font-marcellus font-bold md:w-3/5 lg:w-4/5 p-6 lg:mt-[220px] mt-[150px] md:mt-[200px]">
           Creating a safe and nurturing environment where boys can thrive,
           realize their potential, and contribute positively to society.
         </h1>

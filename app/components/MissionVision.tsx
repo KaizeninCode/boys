@@ -2,33 +2,33 @@ import React from "react";
 
 const MissionVision = () => {
   return (
-    <section className="flex-1 min-h-screen opacity-70 px-12 py-4" id="mission">
+    <section className="flex-1 min-h-screen opacity-70 lg:px-12 px-6 lg:py-4" id="mission">
       <div className="flex flex-col gap-8 mt-6">
-        <div className=" mx-auto">
-          <h1 className="font-marcellus text-5xl mb-8 bg-white text-black w-fit p-4 rounded-lg">
+        <div className="mx-auto">
+          <h1 className="font-marcellus lg:text-5xl text-xl lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
             Mission
           </h1>
-          <p className="text-2xl">
+          <p className="lg:text-2xl text-xl">
             Our mission is to empower male children by providing them with the
             necessary support, resources, and opportunities to overcome
             obstacles and lead fulfilling lives as valued members of society.
           </p>
-          <h1 className="font-marcellus text-5xl my-8 bg-white text-black w-fit p-4 rounded-lg">
+          <h1 className="font-marcellus lg:text-5xl text-xl lg:my-8 my-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
             Vision
           </h1>
-          <p className="text-2xl">
+          <p className="lg:text-2xl text-xl">
             We envision a society where all male children have access to
             education, healthcare, protection from violence and exploitation,
             and opportunities for personal and professional growth, regardless
             of their background or circumstances.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-8 mt-8">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-8 space-y-4 mt-8">
           <div>
-            <h1 className="text-5xl font-marcellus mb-8 bg-white text-black w-fit p-4 rounded-lg">
+            <h1 className="lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
               Objectives
             </h1>
-            <ul className="text-2xl list-disc pl-8">
+            <ul className="lg:text-2xl text-xl list-disc lg:pl-8 pl-4">
               <li>
                 Establish community-level protection systems and raise awareness
                 to prevent violence, abuse, and exploitation against male
@@ -47,10 +47,10 @@ const MissionVision = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-5xl font-marcellus mb-8 bg-white text-black w-fit p-4 rounded-lg">
+            <h1 className="lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
               Values
             </h1>
-            <ul className="text-2xl list-disc pl-8">
+            <ul className="lg:text-2xl text-xl list-disc lg:pl-8 pl-4">
               <li>
                 <em className="font-extrabold">Integrity:</em> We uphold
                 accountability and transparency in all our actions, ensuring the
