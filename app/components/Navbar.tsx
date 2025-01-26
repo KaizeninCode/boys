@@ -20,9 +20,9 @@ const Navbar = () => {
         },
     ]
   return (
-    <nav className='flex items-center justify-between p-3 text-black'>
+    <nav className='flex items-center justify-between p-3 opacity-70 sticky top-0 bg-black z-50'>
       <div className='mr-auto'>
-        <h1 className="text-3xl font-marcellus font-extrabold text-black">Best Outcomes Youth Solace</h1>
+        <h1 className="text-3xl font-marcellus font-extrabold ">Best Outcomes Youth Solace</h1>
       </div>
       <div className='text-xl'>
         {navlinks.map((link, index) => (

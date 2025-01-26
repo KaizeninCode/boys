@@ -10,9 +10,9 @@ const Home = () => {
       className="flex-1 min-h-screen bg-hero bg-cover bg-center opacity-70 px-12 py-4"
       id="Home"
     >
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="flex flex-col items-center justify-center h-full text-black mx-auto">
-        <h1 className="text-5xl font-marcellus font-bold w-4/5 p-6 mt-[180px]">
+        <h1 className="text-5xl font-marcellus font-bold w-4/5 p-6 mt-[220px]">
           Creating a safe and nurturing environment where boys can thrive,
           realize their potential, and contribute positively to society.
         </h1>
