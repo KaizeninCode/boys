@@ -28,9 +28,9 @@ const MissionVision = () => {
         </div>
         <div className="bg-mission-1 bg-cover bg-center rounded-lg" />
       </div>
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-16">
-          <div className="bg-mission-2 bg-cover bg-center rounded-lg" />
-                <div className="lg:flex lg:flex-col lg:gap-8 space-y-4 mt-8">
+      <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-16">
+        <div className="bg-mission-2 bg-cover bg-center rounded-lg" />
+        <div className="lg:flex lg:flex-col lg:gap-8 space-y-4 max-lg:mt-8">
           <div>
             <h1 className="lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
               Objectives
@@ -42,14 +42,14 @@ const MissionVision = () => {
                 children.
               </li>
               <li>
-                Provide comprehensive support including mentorship, education, and
-                access to essential services to empower male children and enable
-                them to realize their potential.
+                Provide comprehensive support including mentorship, education,
+                and access to essential services to empower male children and
+                enable them to realize their potential.
               </li>
               <li>
                 Promote skills training, talent development, and economic
-                opportunities to uplift vulnerable male children and foster their
-                integration into society.
+                opportunities to uplift vulnerable male children and foster
+                their integration into society.
               </li>
             </ul>
           </div>
@@ -70,10 +70,10 @@ const MissionVision = () => {
                 children.
               </li>
               <li>
-                <em className="font-extrabold">Inclusivity:</em> We prioritize the
-                inclusion of vulnerable male children in all our initiatives,
-                ensuring that their voices are heard and their needs are
-                addressed.
+                <em className="font-extrabold">Inclusivity:</em> We prioritize
+                the inclusion of vulnerable male children in all our
+                initiatives, ensuring that their voices are heard and their
+                needs are addressed.
               </li>
             </ul>
           </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
         },
     ]
   return (
-    <nav className='flex items-center justify-between p-3 opacity-70 md:sticky md:top-0 bg-black z-50'>
+    <nav className='flex items-center justify-between p-3 opacity-70 lg:sticky md:top-0 bg-black z-50'>
       <div className='mr-auto max-lg:mx-auto'>
         <h1 className="lg:text-3xl md:text-xl font-marcellus font-extrabold ">Best Outcomes Youth Solace</h1>
       </div>
