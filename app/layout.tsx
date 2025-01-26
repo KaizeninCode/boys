@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-spartan">{children}</body>
+      <body className="font-spartan scroll-smooth">{children}</body>
     </html>
   );
 }
