@@ -14,6 +14,7 @@ export default {
       },
       backgroundImage: {
         'hero': "url('/hero.jpg')",
+        'contact': "url('/contact.jpg')",
       }
     },
   },
