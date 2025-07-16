@@ -8,25 +8,38 @@ const About = () => {
     >
       <div className="lg:flex lg:items-center lg:justify-center lg:flex-col gap-8 mt-6">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-16">
-          <div>
-            <h1 className="lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
-              About Us
-            </h1>
-            <p className="lg:text-2xl text-lg">
-              Best Outcomes Youth Solace (BOYS) is a non-profit organization
-              dedicated to addressing the challenges faced by male children,
-              particularly in vulnerable communities. BOYS is committed to
-              creating a safe and nurturing environment where boys can thrive,
-              realize their potential, and contribute positively to society.{" "}
-              <br /> <br />
-              Our programs include educational support, mentorship, healthcare
-              access, and skill development workshops. By providing these
-              essential services, we aim to empower boys with the tools and
-              opportunities they need to overcome their challenges and build a
-              brighter future. We also engage with local communities to raise
-              awareness and foster a supportive environment for the holistic
-              development of male children.
-            </p>
+          <div className="space-y-24">
+            <div>
+              <h1 className="lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
+                About Us
+              </h1>
+              <p className="lg:text-2xl text-lg">
+                Best Outcomes Youth Solace (BOYS) is a non-profit organization
+                dedicated to addressing the challenges faced by male children,
+                particularly in vulnerable communities. BOYS is committed to
+                creating a safe and nurturing environment where boys can thrive,
+                realize their potential, and contribute positively to society.{" "}
+              </p>
+            </div>
+
+            <div>
+              <h1 className="lg:text-5xl text-xl font-marcellus lg:my-8 my-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
+                Our Programs
+              </h1>
+              <ul className="lg:text-2xl text-xl list-disc lg:pl-8 pl-4 lg:mb-16 mb-8">
+                <li>Educational support</li>
+                <li>Mentorship</li>
+                <li>Healthcare Access</li>
+                <li>Skill Development Workshops</li>
+              </ul>
+              <p className="lg:text-2xl text-lg">
+                By providing these essential services, we aim to empower boys
+                with the tools and opportunities they need to overcome their
+                challenges and build a brighter future. We also engage with
+                local communities to raise awareness and foster a supportive
+                environment for the holistic development of male children.
+              </p>
+            </div>
           </div>
           <div className="bg-about-2 bg-cover bg-center rounded-xl" />
         </div>
