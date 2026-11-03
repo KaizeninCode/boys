@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   title: "Best Outcomes Youth Solace",
   description:
-    "Best Outcomes Youth Solace (BOYS) is a non-profit organization dedicated to addressing the challenges faced by male children, particularly in vulnerable communities.",
+    "Raising Boys into Responsible Men",
 };
 
 export default function RootLayout({

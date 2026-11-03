@@ -14,57 +14,76 @@ const About = () => {
                 About Us
               </h1>
               <p className="lg:text-2xl text-lg">
-                Best Outcomes Youth Solace (BOYS) is a non-profit organization
-                dedicated to addressing the challenges faced by male children,
-                particularly in vulnerable communities. BOYS is committed to
-                creating a safe and nurturing environment where boys can thrive,
-                realize their potential, and contribute positively to society.{" "}
+                Based in Bondo (Siaya County), Best Outcomes Youth Solace (BOYS)
+                is a non-profit organization dedicated to empowering boys and
+                young men through mentorship, education, psychosocial support,
+                skills development and economic empowerment. The organisation
+                promotes positive masculinity, emotional wellbeing, gender
+                equality, respect for women and girls, and responsible
+                leadership, helping boys grow into confident, skilled,
+                responsible and productive members of society.
               </p>
             </div>
 
-            <div>
-              <h1 className="lg:text-5xl text-xl font-marcellus lg:my-8 my-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
-                Our Programs
-              </h1>
-              <ul className="lg:text-2xl text-xl list-disc lg:pl-8 pl-4 lg:mb-16 mb-8">
-                <li>Educational support</li>
-                <li>Mentorship</li>
-                <li>Healthcare Access</li>
-                <li>Skill Development Workshops</li>
-              </ul>
-              <p className="lg:text-2xl text-lg">
-                By providing these essential services, we aim to empower boys
-                with the tools and opportunities they need to overcome their
-                challenges and build a brighter future. We also engage with
-                local communities to raise awareness and foster a supportive
-                environment for the holistic development of male children.
-              </p>
-            </div>
+            
           </div>
           <div className="bg-about-2 bg-cover bg-center rounded-xl" />
         </div>
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-16">
-          <div className="bg-about-1 bg-cover bg-center rounded-xl" />
+        <h1 className="font-marcellus lg:text-5xl text-xl lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg lg:gap-8 lg:mt-16">
+          Problem Statement
+        </h1>
+        <div className="lg:grid lg:grid-cols-2 ">
           <div className="max-lg:mt-8">
-            <h1 className="font-marcellus lg:text-5xl text-xl lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
-              Problem Statement
-            </h1>
-            <p className="lg:text-2xl text-lg max-lg:min-w-screen-md">
-              Male children in many communities face various challenges
-              including violence, abuse, lack of access to education and
-              healthcare, and limited opportunities for personal development.
-              These challenges hinder their ability to lead fulfilling lives and
-              contribute to their communities. <br /> <br />
-              Limited economic opportunities further exacerbate the
-              vulnerability of male children in this area, hindering their
-              ability to realize their full potential and contribute positively
-              to their communities. The absence of comprehensive support systems
-              and opportunities for skill development leaves male children
-              marginalized and at risk of perpetuating cycles of poverty and
-              disadvantage. <br /> <br />
-              Therefore, there is an urgent need for targeted interventions to
-              address these pressing issues and empower male children to lead
-              fulfilling lives and become valued members of society.
+            <p className="lg:text-2xl text-lg max-lg:min-w-screen-md p-4">
+              In many communities, including Bondo Sub-County, boys grow up
+              facing societal expectations to be strong, self-reliant, dominant
+              and future providers, often without adequate guidance, protection,
+              mentorship and opportunities to develop into responsible,
+              emotionally healthy adults. Their vulnerabilities are frequently
+              overlooked, leaving many exposed to abuse, neglect, exploitation
+              and other social challenges. <br />
+              <br />
+              Cultural norms that discourage boys from expressing emotions or
+              seeking help often undermine their emotional development, empathy
+              and ability to manage conflict constructively. Poverty, family
+              instability and limited access to education, healthcare and
+              mentorship further expose some boys to school dropout, child
+              labour, substance abuse, crime and other harmful environments.
+              <br />
+              <br /> The rising cases of gender-based violence and femicide in
+              Kenya also highlight the urgent need to rethink how boys are
+              socialised and prepared for adulthood. Harmful expressions of
+              masculinity, aggression, entitlement, poor emotional regulation
+              and disrespect towards women and girls must be addressed early.
+              Boys need guidance to understand that positive masculinity is
+              founded on responsibility, integrity, empathy, self-discipline,
+              respect and accountability rather than dominance, control or
+              aggression.
+            </p>
+          </div>
+          <div className="max-lg:mt-8">
+            <p className="lg:text-2xl text-lg max-lg:min-w-screen-md p-4">
+              Economic vulnerability compounds these challenges, with many boys
+              leaving school without marketable skills, career guidance or
+              access to vocational training and entrepreneurship opportunities.
+              Furthermore, inadequate support systems, including counselling,
+              educational assistance, child protection services and safe spaces,
+              leave many without the resources they need to overcome these
+              challenges. <br />
+              <br />
+              There is therefore an urgent need for holistic and sustainable
+              interventions that protect and empower the boychild through
+              education, psychosocial support, mentorship, life skills,
+              vocational training and economic empowerment. These interventions
+              must deliberately promote positive masculinity, gender equality,
+              non-violence, respect for women and girls, emotional intelligence
+              and responsible citizenship.
+              <br />
+              <br /> <span className="font-semibold">
+                Investing in the boychild is not a competition with the
+                girlchild; it is an investment in responsible men, healthier
+                families, safer communities and a more equitable society.
+              </span>
             </p>
           </div>
         </div>
