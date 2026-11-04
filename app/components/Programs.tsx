@@ -90,7 +90,7 @@ const Programs = () => {
   return (
     <section className="flex-1 min-h-screen opacity-70 lg:px-12 px-6 lg:py-4">
       <div className="lg:mt-16 mt-4">
-        <h1 className="mx-auto lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
+        <h1 className="lg:mx-auto lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
           Program Pillars
         </h1>
         <ul className="lg:text-2xl text-xl list-disc lg:pl-8 pl-4 space-y-4">
@@ -103,7 +103,7 @@ const Programs = () => {
         </ul>
       </div>
       <div className="lg:mt-16 mt-4">
-        <h1 className="mx-auto lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
+        <h1 className="lg:mx-auto lg:text-5xl text-xl font-marcellus lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg">
           How Each Pillar Works
         </h1>
         <ul className="lg:text-2xl text-xl list-disc lg:pl-8 pl-4 space-y-4">
@@ -116,7 +116,7 @@ const Programs = () => {
         </ul>
       </div>
       <div className="lg:mt-16 mt-4">
-        <h4 className="text-light font-4xl text-center">
+        <h4 className="italic font-bold text-xl text-center">
           We are not raising boys to dominate. We are empowering them to become responsible men who contribute to a safe, just, and compassionate society.
         </h4>
       </div>

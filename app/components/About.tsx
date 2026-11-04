@@ -29,12 +29,12 @@ const About = () => {
           </div>
           <div className="bg-about-2 bg-cover bg-center rounded-xl" />
         </div>
-        <h1 className="font-marcellus lg:text-5xl text-xl lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg lg:gap-8 lg:mt-16">
+        <h1 className="font-marcellus lg:text-5xl text-xl lg:mb-8 mb-4 bg-white text-black w-fit lg:p-4 p-2 rounded-lg lg:gap-8 lg:mt-16 mt-4">
           Problem Statement
         </h1>
         <div className="lg:grid lg:grid-cols-2 ">
           <div className="max-lg:mt-8">
-            <p className="lg:text-2xl text-lg max-lg:min-w-screen-md p-4">
+            <p className="lg:text-2xl text-lg max-lg:min-w-screen-md lg:p-4">
               In many communities, including Bondo Sub-County, boys grow up
               facing societal expectations to be strong, self-reliant, dominant
               and future providers, often without adequate guidance, protection,
@@ -50,36 +50,20 @@ const About = () => {
               mentorship further expose some boys to school dropout, child
               labour, substance abuse, crime and other harmful environments.
               <br />
-              <br /> The rising cases of gender-based violence and femicide in
-              Kenya also highlight the urgent need to rethink how boys are
-              socialised and prepared for adulthood. Harmful expressions of
-              masculinity, aggression, entitlement, poor emotional regulation
-              and disrespect towards women and girls must be addressed early.
-              Boys need guidance to understand that positive masculinity is
-              founded on responsibility, integrity, empathy, self-discipline,
-              respect and accountability rather than dominance, control or
-              aggression.
             </p>
           </div>
           <div className="max-lg:mt-8">
-            <p className="lg:text-2xl text-lg max-lg:min-w-screen-md p-4">
-              Economic vulnerability compounds these challenges, with many boys
-              leaving school without marketable skills, career guidance or
-              access to vocational training and entrepreneurship opportunities.
-              Furthermore, inadequate support systems, including counselling,
-              educational assistance, child protection services and safe spaces,
-              leave many without the resources they need to overcome these
-              challenges. <br />
-              <br />
-              There is therefore an urgent need for holistic and sustainable
-              interventions that protect and empower the boychild through
-              education, psychosocial support, mentorship, life skills,
-              vocational training and economic empowerment. These interventions
-              must deliberately promote positive masculinity, gender equality,
-              non-violence, respect for women and girls, emotional intelligence
-              and responsible citizenship.
-              <br />
-              <br /> <span className="font-semibold">
+            <p className="lg:text-2xl text-lg max-lg:min-w-screen-md lg:p-4">
+              The rising cases of gender-based violence and femicide in
+              Kenya also highlight the urgent need to rethink how boys are
+              socialised and prepared for adulthood. Harmful expressions of
+              masculinity, aggression, entitlement, poor emotional regulation
+              and disrespect towards women and girls must be addressed early. <br /><br />
+              Boys need guidance to understand that positive masculinity is
+              founded on responsibility, integrity, empathy, self-discipline,
+              respect and accountability rather than dominance, control or
+              aggression. <br /><br />
+              <span className="font-semibold">
                 Investing in the boychild is not a competition with the
                 girlchild; it is an investment in responsible men, healthier
                 families, safer communities and a more equitable society.
