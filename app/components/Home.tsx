@@ -11,7 +11,7 @@ const Home = () => {
     >
       {/* <Navbar /> */}
       <div className="flex flex-col items-center justify-center h-full text-black mx-auto">
-        <h1 className="lg:text-5xl text-xl font-marcellus font-bold md:w-3/5 lg:w-4/5 p-6 ">
+        <h1 className="text-center lg:text-5xl text-xl font-marcellus font-bold md:w-3/5 lg:w-4/5 p-6 ">
           Creating a safe and nurturing environment where boys can thrive,
           realize their potential, and contribute positively to society.
         </h1>
