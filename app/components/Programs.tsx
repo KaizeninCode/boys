@@ -117,7 +117,8 @@ const Programs = () => {
       </div>
       <div className="lg:mt-16 mt-4">
         <h4 className="italic font-bold text-xl text-center">
-          We are not raising boys to dominate. We are empowering them to become responsible men who contribute to a safe, just, and compassionate society.
+          Creating a safe and nurturing environment where boys can thrive,
+          realize their potential, and contribute positively to society.
         </h4>
       </div>
     </section>
